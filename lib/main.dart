@@ -29,9 +29,6 @@ class myHome extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Text('Favourite Games'),
-            Text('TLOU2 : 10'),
-            Text('Zelda : 10'),
             FlatButton(
               onPressed: () async {
                 int i = await DatabaseHelper.instance.insert({
@@ -115,7 +112,7 @@ class _AddGameRouteState extends State<AddGameRoute> {
                   TextFormField(
                     keyboardType: TextInputType.number,
                     decoration: const InputDecoration(
-                      hintText: 'Name',
+                      hintText: 'Rating',
                     ),
                     validator: (value) {
                       if(value.isEmpty) {
