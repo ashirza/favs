@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fh4nPS8BJVXCOqiibNkdxyHgXT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="" />
+      <created>1596657158248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596657158248</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit .ignore">
+      <created>1596736584967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596736584967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit .ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit .ignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="307" y="53" key="CommitChangelistDialog2" timestamp="1596736835519">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="307" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596736835519" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596665472031">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596665472031" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596665472029">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596665472029" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596665472028">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596665472028" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596665472030">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596665472030" />
+    <state x="196" y="0" width="1244" height="877" key="SettingsEditor" timestamp="1596661049968">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
+    <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596736712689">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596736712689" />
+    <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596660822513">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1596660822513" />
+    <state x="294" y="37" width="852" height="825" key="find.popup" timestamp="1596664741665">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="294" y="37" width="852" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596664741665" />
+  </component>
+</project>
