@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Game.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,19 +60,27 @@
       <option name="project" value="LOCAL" />
       <updated>1596736904552</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added button to go to new route, so that adding games can be done in the new route in the future">
+      <created>1596750206368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596750206368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit .ignore" />
     <MESSAGE value="adding files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding files" />
+    <MESSAGE value="added button to go to new route, so that adding games can be done in the new route in the future" />
+    <option name="LAST_COMMIT_MESSAGE" value="added button to go to new route, so that adding games can be done in the new route in the future" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="53" key="CommitChangelistDialog2" timestamp="1596736904240">
+    <state x="307" y="53" key="CommitChangelistDialog2" timestamp="1596750206113">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="307" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596736904240" />
+    <state x="307" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596750206113" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596749286225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -93,10 +102,10 @@
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596737411027">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596750231785">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596737411027" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596750231785" />
     <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596660822513">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -105,5 +114,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="294" y="37" width="852" height="825" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596664741665" />
+    <state x="432" y="248" key="git4idea.merge.GitPullDialog" timestamp="1596750226259">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="248" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1596750226259" />
   </component>
 </project>
