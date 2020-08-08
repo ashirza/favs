@@ -1,10 +1,6 @@
 import 'package:favs/database_helper.dart';
 import 'package:flutter/material.dart';
-import 'dart:async';
-import 'package:sqflite/sqflite.dart';
-
-import 'Game.dart';
-
+import 'AddGameRoute.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,14 +11,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: myHome()
+      home: MyHome()
     );
   }
 }
 
-class myHome extends StatelessWidget {
+class MyHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    //TODO Display list of games by default
     return Scaffold(
       appBar: AppBar(
       ),
@@ -80,71 +77,4 @@ class myHome extends StatelessWidget {
   }
 }
 
-class AddGameRoute extends StatefulWidget {
-  @override
-  _AddGameRouteState createState() => _AddGameRouteState();
-}
 
-class _AddGameRouteState extends State<AddGameRoute> {
-  final _formKey = GlobalKey<FormState>();
-  final _game = Game();
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        body: Column(
-          children: [
-            Form(
-              key: _formKey,
-              child: Column(
-                children: [
-                  TextFormField(
-                    decoration: const InputDecoration(
-                      hintText: 'Name',
-                    ),
-                    validator: (value) {
-                      if(value.isEmpty) {
-                        return 'Please enter some text.';
-                      } return null;
-                    },
-                    onSaved: (val) => setState(() => _game.name = val),
-                  ),
-                  TextFormField(
-                    keyboardType: TextInputType.number,
-                    decoration: const InputDecoration(
-                      hintText: 'Rating',
-                    ),
-                    validator: (value) {
-                      if(value.isEmpty) {
-                        return 'Please enter some text.';
-                      } return null;
-                    },
-                    onSaved: (val) => setState(() => _game.rating = int.parse(val)),
-                  ),
-                  RaisedButton(
-                    onPressed: () async {
-                      if(_formKey.currentState.validate()) {
-                        print('valid!');
-                        _formKey.currentState.save();
-                        int i = await DatabaseHelper.instance.insert({
-                          DatabaseHelper.columnName : _game.name,
-                          DatabaseHelper.columnRating : _game.rating,
-                        });
-                      }
-                    },
-                    child: Text('Submit'),
-                  ),
-                ],
-              ),
-            ),
-            Center(
-              child: RaisedButton(
-                child: Text('Go back'),
-                onPressed: () {Navigator.pop(context);},
-              ),
-            ),
-          ],
-        ),
-      );
-  }
-}

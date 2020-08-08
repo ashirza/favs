@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/AddGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596754754453</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed some unneeded text widgets, renamed form hint to 'rating'">
+      <created>1596755277692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596755277692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -84,42 +92,44 @@
     <MESSAGE value="adding files" />
     <MESSAGE value="added button to go to new route, so that adding games can be done in the new route in the future" />
     <MESSAGE value="created a form for adding a game to the list" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a form for adding a game to the list" />
+    <MESSAGE value="removed some unneeded text widgets, renamed form hint to 'rating'" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed some unneeded text widgets, renamed form hint to 'rating'" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="307" y="53" key="CommitChangelistDialog2" timestamp="1596754754172">
+    <state x="307" y="53" key="CommitChangelistDialog2" timestamp="1596755277500">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="307" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596754754172" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1596755076252">
+    <state x="307" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596755277500" />
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1596892997951">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596755076252" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1596755076250">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596892997951" />
+    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1596892997949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596755076250" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1596755076249">
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596892997949" />
+    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1596892997947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596755076249" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1596755076251">
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596892997947" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1596892997950">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596755076251" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596892997950" />
     <state x="196" y="0" width="1244" height="877" key="SettingsEditor" timestamp="1596661049968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596754760181">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596755283632">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596754760181" />
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596754816759">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596755283632" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1596892583586">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1596754816759" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.23.1440.877" timestamp="1596892583586" />
     <state x="120" y="143" width="1200" height="637" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1596660822513" />
     <state x="294" y="37" width="852" height="825" key="find.popup" timestamp="1596664741665">
       <screen x="0" y="0" width="1440" height="900" />
