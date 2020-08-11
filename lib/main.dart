@@ -11,19 +11,25 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHome()
+      home: Home(),
     );
   }
 }
 
-class MyHome extends StatelessWidget {
+class Home extends StatefulWidget {
+  @override
+  _HomeState createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+
+
   @override
   Widget build(BuildContext context) {
-    //TODO Display list of games by default
     return Scaffold(
       appBar: AppBar(
       ),
-      body: Center(
+      body: Container(
         child: Column(
           children: [
             FlatButton(
@@ -61,6 +67,26 @@ class MyHome extends StatelessWidget {
               },
               child: Text('Delete'),
             ),
+            Expanded(
+              child: FutureBuilder(
+                future: DatabaseHelper.instance.queryAll(),
+                builder: (context, snapshot) {
+                  return snapshot.hasData ? ListView.builder(
+                    itemCount: snapshot.data.length,
+                    itemBuilder: (_, int position) {
+                      final item = snapshot.data[position];
+                      return Card(
+                        child: ListTile(
+                          title: Text(item['name'] + ' Rating: ' + item['rating'].toString()),
+                        ),
+                      );
+                    },
+                  ) : Center(
+                    child: CircularProgressIndicator(),
+                  );
+                },
+              ),
+            ),
           ],
         ),
       ),
@@ -76,5 +102,4 @@ class MyHome extends StatelessWidget {
     );
   }
 }
-
 
