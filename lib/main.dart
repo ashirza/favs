@@ -71,20 +71,20 @@ class _HomeState extends State<Home> {
               child: FutureBuilder(
                 future: DatabaseHelper.instance.queryAll(),
                 builder: (context, snapshot) {
-                  return snapshot.hasData ? ListView.builder(
-                    itemCount: snapshot.data.length,
-                    itemBuilder: (_, int position) {
-                      final item = snapshot.data[position];
-                      return Card(
-                        child: ListTile(
-                          title: Text(item['name'] + ' Rating: ' + item['rating'].toString()),
-                        ),
-                      );
-                    },
-                  ) : Center(
-                    child: CircularProgressIndicator(),
-                  );
-                },
+                  if(snapshot.connectionState == ConnectionState.done) {
+                    return ListView.builder(
+                      itemCount: snapshot.data.length,
+                      itemBuilder: (_, int position) {
+                        final item = snapshot.data[position];
+                        return Card(
+                          child: ListTile(
+                            title: Text(item['name'] + ' Rating: ' + item['rating'].toString()),
+                          ),
+                        );
+                      },
+                    );
+                  } else return Text('Loading..');
+                  },
               ),
             ),
           ],
@@ -94,7 +94,8 @@ class _HomeState extends State<Home> {
         onPressed: () {
           Navigator.push(context, MaterialPageRoute(
               builder: (context) => AddGameRoute()),
-          );
+          ).then((value) {setState(() {
+          });});
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.green,
