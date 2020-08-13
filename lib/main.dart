@@ -78,7 +78,9 @@ class _HomeState extends State<Home> {
                         final item = snapshot.data[position];
                         return Card(
                           child: ListTile(
-                            title: Text(item['name'] + ' Rating: ' + item['rating'].toString()),
+                            title: Text(item['name']),
+                            subtitle: Text(item['rating'].toString()),
+                            trailing: Icon(Icons.videogame_asset),
                           ),
                         );
                       },
