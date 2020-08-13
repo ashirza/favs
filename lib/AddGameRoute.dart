@@ -59,6 +59,9 @@ class _AddGameRouteState extends State<AddGameRoute> {
             ),
           ],
         ),
+      appBar: AppBar(
+        title: Text('Add Game'),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () async {
           if(_formKey.currentState.validate()) {

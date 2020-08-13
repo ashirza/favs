@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AddGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AddGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597268404012</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="list looks nicer">
+      <created>1597342880006</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597342880007</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,13 +117,14 @@
     <MESSAGE value="removed some unneeded text widgets, renamed form hint to 'rating'" />
     <MESSAGE value="refactored some classes into separate files, made the addGameRoute thingy look nicer, the add button (now a floating action button) now takes you back to the homepage" />
     <MESSAGE value="list of games now updates after adding a new game!! (had to add a .then + setState to the floating action button for future reference)" />
-    <option name="LAST_COMMIT_MESSAGE" value="list of games now updates after adding a new game!! (had to add a .then + setState to the floating action button for future reference)" />
+    <MESSAGE value="list looks nicer" />
+    <option name="LAST_COMMIT_MESSAGE" value="list looks nicer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="53" key="CommitChangelistDialog2" timestamp="1597268403589">
+    <state x="0" y="53" key="CommitChangelistDialog2" timestamp="1597342879632">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597268403589" />
+    <state x="0" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597342879632" />
     <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1597268427311">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -150,6 +160,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="390" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1597341341082" />
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597343718111">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1597343718111" />
     <state x="294" y="37" width="852" height="825" key="find.popup" timestamp="1596664741665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

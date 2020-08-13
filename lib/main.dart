@@ -1,6 +1,7 @@
 import 'package:favs/database_helper.dart';
 import 'package:flutter/material.dart';
 import 'AddGameRoute.dart';
+import 'EditGameRoute.dart';
 
 void main() {
   runApp(MyApp());
@@ -81,6 +82,11 @@ class _HomeState extends State<Home> {
                             title: Text(item['name']),
                             subtitle: Text(item['rating'].toString()),
                             trailing: Icon(Icons.videogame_asset),
+                            onLongPress: () {
+                              Navigator.push(context, MaterialPageRoute(
+                                builder: (context) => EditGameRoute()),
+                              );
+                            },
                           ),
                         );
                       },
