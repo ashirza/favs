@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/AddGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AddGameRoute.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/EditGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597342880007</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added an app bar with a title to AddGameRoute.dart,&#10;created EditGameRoute.dart to prepare for editing and deleting games">
+      <created>1597343756898</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597343756898</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -118,48 +125,49 @@
     <MESSAGE value="refactored some classes into separate files, made the addGameRoute thingy look nicer, the add button (now a floating action button) now takes you back to the homepage" />
     <MESSAGE value="list of games now updates after adding a new game!! (had to add a .then + setState to the floating action button for future reference)" />
     <MESSAGE value="list looks nicer" />
-    <option name="LAST_COMMIT_MESSAGE" value="list looks nicer" />
+    <MESSAGE value="added an app bar with a title to AddGameRoute.dart,&#10;created EditGameRoute.dart to prepare for editing and deleting games" />
+    <option name="LAST_COMMIT_MESSAGE" value="added an app bar with a title to AddGameRoute.dart,&#10;created EditGameRoute.dart to prepare for editing and deleting games" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="53" key="CommitChangelistDialog2" timestamp="1597342879632">
+    <state x="122" y="15" key="CommitChangelistDialog2" timestamp="1597343756665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597342879632" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1597268427311">
+    <state x="122" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597343756665" />
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1597665170531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597268427311" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1597268427308">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597665170531" />
+    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1597665170527">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597268427308" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1597268427306">
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597665170527" />
+    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1597665170525">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597268427306" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1597268427310">
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597665170525" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1597665170529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597268427310" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597665170529" />
     <state x="196" y="0" width="1244" height="877" key="SettingsEditor" timestamp="1596661049968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597268412434">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597343763530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597268412434" />
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597341396748">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597343763530" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597665082987">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1596754816759" />
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.23.1440.877" timestamp="1596892583586" />
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597341396748" />
-    <state x="390" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1597341341082">
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597665082987" />
+    <state x="390" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1597664904946">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="390" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1597341341082" />
+    <state x="390" y="298" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1597664904946" />
     <state x="500" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597343718111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

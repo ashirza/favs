@@ -2,6 +2,7 @@ import 'package:favs/database_helper.dart';
 import 'package:flutter/material.dart';
 import 'AddGameRoute.dart';
 import 'EditGameRoute.dart';
+import 'Game.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Home(),
+      theme: ThemeData.dark(),
     );
   }
 }
@@ -63,7 +65,7 @@ class _HomeState extends State<Home> {
             ),
             FlatButton(
               onPressed: () async {
-                int rowsAffected = await DatabaseHelper.instance.delete(3);
+                int rowsAffected = await DatabaseHelper.instance.delete(20);
                 print(rowsAffected);
               },
               child: Text('Delete'),
@@ -77,6 +79,7 @@ class _HomeState extends State<Home> {
                       itemCount: snapshot.data.length,
                       itemBuilder: (_, int position) {
                         final item = snapshot.data[position];
+                        Game game = new Game(id: item['id'], name: item['name'], rating: item['rating']);
                         return Card(
                           child: ListTile(
                             title: Text(item['name']),
@@ -84,8 +87,9 @@ class _HomeState extends State<Home> {
                             trailing: Icon(Icons.videogame_asset),
                             onLongPress: () {
                               Navigator.push(context, MaterialPageRoute(
-                                builder: (context) => EditGameRoute()),
-                              );
+                                builder: (context) => EditGameRoute(game: game,)),
+                              ).then((value) => {setState(() {
+                              })});
                             },
                           ),
                         );
@@ -106,7 +110,6 @@ class _HomeState extends State<Home> {
           });});
         },
         child: Icon(Icons.add),
-        backgroundColor: Colors.green,
       ),
     );
   }

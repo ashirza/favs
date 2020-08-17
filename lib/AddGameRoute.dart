@@ -74,6 +74,7 @@ class _AddGameRouteState extends State<AddGameRoute> {
             Navigator.pop(context);
           }
         },
+        backgroundColor: Colors.green,
         child: Icon(Icons.done),
       ),
       );
