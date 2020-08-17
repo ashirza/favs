@@ -37,16 +37,6 @@ class _HomeState extends State<Home> {
           children: [
             FlatButton(
               onPressed: () async {
-                int i = await DatabaseHelper.instance.insert({
-                  DatabaseHelper.columnName : 'Zelda',
-                  DatabaseHelper.columnRating : 10,
-                });
-                print('the inserted id is $i' );
-              },
-              child: Text('Insert'),
-            ),
-            FlatButton(
-              onPressed: () async {
                 List<Map<String, dynamic>> queryRows = await DatabaseHelper.instance.queryAll();
                 print(queryRows);
               },
@@ -62,13 +52,6 @@ class _HomeState extends State<Home> {
                 print(updatedId);
               },
               child: Text('Update'),
-            ),
-            FlatButton(
-              onPressed: () async {
-                int rowsAffected = await DatabaseHelper.instance.delete(20);
-                print(rowsAffected);
-              },
-              child: Text('Delete'),
             ),
             Expanded(
               child: FutureBuilder(
