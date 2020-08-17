@@ -21,13 +21,38 @@ class _EditGameRouteState extends State<EditGameRoute> {
     return Scaffold(
       body: Column(
         children: [
-          Form(
-            key: _formKey,
-            child: Column(
-              children: [
-                TextFormField(
-                )
-              ],
+          Padding(
+            padding: const EdgeInsets.all(16),
+            child: Form(
+              key: _formKey,
+              child: Column(
+                children: [
+                  TextFormField(
+                    decoration: const InputDecoration(
+                      hintText: 'Name'
+                    ),
+                    validator: (value) {
+                      if(value.isEmpty) {
+                        return 'Please enter some text.';
+                      } return null;
+                    },
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  TextFormField(
+                    keyboardType: TextInputType.number,
+                    decoration: const InputDecoration(
+                      hintText: 'Rating',
+                    ),
+                    validator: (value) {
+                      if(value.isEmpty) {
+                        return 'Please enter some text.';
+                      } return null;
+                    },
+                  )
+                ],
+              ),
             ),
           ),
           FlatButton(
