@@ -35,24 +35,6 @@ class _HomeState extends State<Home> {
       body: Container(
         child: Column(
           children: [
-            FlatButton(
-              onPressed: () async {
-                List<Map<String, dynamic>> queryRows = await DatabaseHelper.instance.queryAll();
-                print(queryRows);
-              },
-              child: Text('Query'),
-            ),
-            FlatButton(
-              onPressed: () async {
-                int updatedId = await DatabaseHelper.instance.update({
-                  DatabaseHelper.columnId : 2,
-                  DatabaseHelper.columnName : 'TLOU',
-                  DatabaseHelper.columnRating : 10,
-                });
-                print(updatedId);
-              },
-              child: Text('Update'),
-            ),
             Expanded(
               child: FutureBuilder(
                 future: DatabaseHelper.instance.queryAll(),

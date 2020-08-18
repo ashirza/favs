@@ -28,49 +28,80 @@ class _EditGameRouteState extends State<EditGameRoute> {
               child: Column(
                 children: [
                   TextFormField(
-                    decoration: const InputDecoration(
-                      hintText: 'Name'
+                    initialValue: widget.game.name,
+                    decoration: InputDecoration(
+                      hintText: widget.game.name,
                     ),
                     validator: (value) {
                       if(value.isEmpty) {
                         return 'Please enter some text.';
                       } return null;
                     },
+                    onSaved: (val) => setState(() => widget.game.name = val),
                   ),
                   SizedBox(
                     height: 10,
                   ),
                   TextFormField(
+                    initialValue: widget.game.rating.toString(),
                     keyboardType: TextInputType.number,
-                    decoration: const InputDecoration(
-                      hintText: 'Rating',
+                    decoration: InputDecoration(
+                      hintText: widget.game.rating.toString(),
                     ),
                     validator: (value) {
                       if(value.isEmpty) {
                         return 'Please enter some text.';
                       } return null;
                     },
-                  )
+                    onSaved: (val) => setState(() => widget.game.rating = int.parse(val)),
+                  ),
                 ],
               ),
             ),
           ),
-          FlatButton(
-            child: Text('Delete'),
-            color: Colors.red,
-            textColor: Colors.white,
-            onPressed: () async {
-              int rowsAffected = await DatabaseHelper.instance.delete(widget.game.id);
-              Navigator.pop(context);
-            },
-          ),
-          Text(widget.game.id.toString()),
-          Text(widget.game.name),
-          Text(widget.game.rating.toString()),
         ],
       ),
       appBar: AppBar(
         title: Text('Edit Game'),
+      ),
+      floatingActionButton: Stack(
+        children: [
+          Align(
+            alignment: Alignment.bottomRight,
+            child: FloatingActionButton(
+              onPressed: () async {
+                if(_formKey.currentState.validate()) {
+                  print('valid!');
+                  _formKey.currentState.save();
+                  int i = await DatabaseHelper.instance.update({
+                    DatabaseHelper.columnId : widget.game.id,
+                    DatabaseHelper.columnName : widget.game.name,
+                    DatabaseHelper.columnRating: widget.game.rating,
+                  });
+                  Navigator.pop(context);
+                }
+              },
+              backgroundColor: Colors.green,
+              child: Icon(Icons.done),
+              heroTag: null,
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 32),
+            child: Align(
+              alignment: Alignment.bottomLeft,
+              child: FloatingActionButton(
+                onPressed: () async {
+                  int rowsAffected = await DatabaseHelper.instance.delete(widget.game.id);
+                  Navigator.pop(context);
+                },
+                child: Icon(Icons.delete),
+                backgroundColor: Colors.red,
+                heroTag: null,
+              ),
+            ),
+          )
+        ],
       ),
     );
   }

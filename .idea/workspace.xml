@@ -7,6 +7,7 @@
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/EditGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597697998776</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class">
+      <created>1597699500606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597699500606</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -140,13 +148,14 @@
     <MESSAGE value="added an app bar with a title to AddGameRoute.dart,&#10;created EditGameRoute.dart to prepare for editing and deleting games" />
     <MESSAGE value="can now delete a game from the list, the app uses dark mode now too" />
     <MESSAGE value="deleted the insert and delete buttons as they're not needed anymore" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted the insert and delete buttons as they're not needed anymore" />
+    <MESSAGE value="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="122" y="15" key="CommitChangelistDialog2" timestamp="1597697998522">
+    <state x="122" y="15" key="CommitChangelistDialog2" timestamp="1597699500423">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="122" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597697998522" />
+    <state x="122" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597699500423" />
     <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1597665170531">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -168,10 +177,10 @@
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597698006468">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597699505733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597698006468" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597699505733" />
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597665082987">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
