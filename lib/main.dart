@@ -26,7 +26,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-
+  //TODO: Add a wishlist/future games list
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,6 +36,7 @@ class _HomeState extends State<Home> {
         child: Column(
           children: [
             Expanded(
+              //TODO: Make this tidier
               child: FutureBuilder(
                 future: DatabaseHelper.instance.queryAll(),
                 builder: (context, snapshot) {

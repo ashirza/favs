@@ -19,6 +19,7 @@ class _EditGameRouteState extends State<EditGameRoute> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //TODO: Display the image at the top (in a card maybe?)
       body: Column(
         children: [
           Padding(
