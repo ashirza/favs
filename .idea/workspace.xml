@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/EditGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AddGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AddGameRoute.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597864406534</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added some todos">
+      <created>1597864528669</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597864528669</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,38 +171,39 @@
     <MESSAGE value="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class" />
     <MESSAGE value="can now update game info, delete button moved to a floating action button (need to add a confirmation dialog), removed the query and delete buttons from the main page" />
     <MESSAGE value="can now add images to the games and edit them" />
-    <option name="LAST_COMMIT_MESSAGE" value="can now add images to the games and edit them" />
+    <MESSAGE value="added some todos" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some todos" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="15" key="CommitChangelistDialog2" timestamp="1597864406257">
+    <state x="0" y="15" key="CommitChangelistDialog2" timestamp="1597864528483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597864406257" />
-    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1597863448910">
+    <state x="0" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597864528483" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1597864602764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597863448910" />
-    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1597863448909">
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597864602764" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1597864602762">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="326" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597863448909" />
-    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1597863448908">
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597864602762" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1597864602761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="326" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597863448908" />
-    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1597863448909">
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597864602761" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1597864602763">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="326" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597863448909" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597864602763" />
     <state x="196" y="0" width="1244" height="877" key="SettingsEditor" timestamp="1596661049968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597864413172">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597864534202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597864413172" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597864534202" />
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597858712589">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

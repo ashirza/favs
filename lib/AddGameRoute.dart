@@ -52,6 +52,9 @@ class _AddGameRouteState extends State<AddGameRoute> {
                       },
                       onSaved: (val) => setState(() => _game.rating = int.parse(val)),
                     ),
+                    SizedBox(
+                      height: 10,
+                    ),
                     TextFormField(
                       decoration: const InputDecoration(
                         hintText: 'Image URL'
