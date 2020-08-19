@@ -44,12 +44,16 @@ class _HomeState extends State<Home> {
                       itemCount: snapshot.data.length,
                       itemBuilder: (_, int position) {
                         final item = snapshot.data[position];
-                        Game game = new Game(id: item['id'], name: item['name'], rating: item['rating']);
+                        Game game = new Game(id: item['id'], name: item['name'], rating: item['rating'], url: item['url']);
                         return Card(
                           child: ListTile(
                             title: Text(item['name']),
                             subtitle: Text(item['rating'].toString()),
-                            trailing: Icon(Icons.videogame_asset),
+                            leading: Image.network(
+                              item['url'],
+                              width: 100,
+                              height: 90,
+                            ),
                             onLongPress: () {
                               Navigator.push(context, MaterialPageRoute(
                                 builder: (context) => EditGameRoute(game: game,)),

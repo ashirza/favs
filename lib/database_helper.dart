@@ -7,13 +7,14 @@ import 'package:path/path.dart';
 
 class DatabaseHelper{
 
-  static final _dbName = 'myDatabase.db';
+  static final _dbName = 'theDatabase.db';
   static final _dbVersion = 1;
-  static final _gameTableName = 'Games';
+  static final _gameTableName = 'gaming';
 
   static final columnId = 'id';
   static final columnName = 'name';
   static final columnRating = 'rating';
+  static final columnUrl = 'url';
 
   DatabaseHelper._privateConstructor();
   static final DatabaseHelper instance = DatabaseHelper._privateConstructor();
@@ -41,7 +42,8 @@ class DatabaseHelper{
       CREATE TABLE $_gameTableName(
       $columnId INTEGER PRIMARY KEY,
       $columnName TEXT NOT NULL,
-      $columnRating INTEGER)
+      $columnRating INTEGER,
+      $columnUrl TEXT NOT NULL)
       '''
     );
   }

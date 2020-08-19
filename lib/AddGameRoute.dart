@@ -15,7 +15,6 @@ class _AddGameRouteState extends State<AddGameRoute> {
 
 
 
-  //TODO: Make this form look nice
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,6 +52,17 @@ class _AddGameRouteState extends State<AddGameRoute> {
                       },
                       onSaved: (val) => setState(() => _game.rating = int.parse(val)),
                     ),
+                    TextFormField(
+                      decoration: const InputDecoration(
+                        hintText: 'Image URL'
+                      ),
+                      validator: (value) {
+                        if(value.isEmpty) {
+                          return 'Please provide an Image URL.';
+                        } return null;
+                      },
+                      onSaved: (val) => setState(() => _game.url = val),
+                    )
                   ],
                 ),
               ),
@@ -70,6 +80,7 @@ class _AddGameRouteState extends State<AddGameRoute> {
             int i = await DatabaseHelper.instance.insert({
               DatabaseHelper.columnName : _game.name,
               DatabaseHelper.columnRating : _game.rating,
+              DatabaseHelper.columnUrl : _game.url,
             });
             Navigator.pop(context);
           }

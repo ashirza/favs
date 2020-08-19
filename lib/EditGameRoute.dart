@@ -55,6 +55,20 @@ class _EditGameRouteState extends State<EditGameRoute> {
                     },
                     onSaved: (val) => setState(() => widget.game.rating = int.parse(val)),
                   ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  TextFormField(
+                    decoration: InputDecoration(
+                      hintText: widget.game.url,
+                    ),
+                    validator: (value) {
+                      if(value.isEmpty) {
+                        return 'Please enter a URL.';
+                      } return null;
+                    },
+                    onSaved: (val) => setState(() => widget.game.url = val),
+                  )
                 ],
               ),
             ),
@@ -77,6 +91,7 @@ class _EditGameRouteState extends State<EditGameRoute> {
                     DatabaseHelper.columnId : widget.game.id,
                     DatabaseHelper.columnName : widget.game.name,
                     DatabaseHelper.columnRating: widget.game.rating,
+                    DatabaseHelper.columnUrl: widget.game.url,
                   });
                   Navigator.pop(context);
                 }

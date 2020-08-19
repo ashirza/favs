@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c24cca1-d961-420f-afd1-2822978e60f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AddGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AddGameRoute.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/EditGameRoute.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/EditGameRoute.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Game.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Game.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database_helper.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597699500606</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="can now update game info, delete button moved to a floating action button (need to add a confirmation dialog), removed the query and delete buttons from the main page">
+      <created>1597766192271</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597766192271</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,44 +163,45 @@
     <MESSAGE value="can now delete a game from the list, the app uses dark mode now too" />
     <MESSAGE value="deleted the insert and delete buttons as they're not needed anymore" />
     <MESSAGE value="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added forms for updating the name/rating (no functionality yet though) as well as some padding for the EditGameRoute.dart class" />
+    <MESSAGE value="can now update game info, delete button moved to a floating action button (need to add a confirmation dialog), removed the query and delete buttons from the main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="can now update game info, delete button moved to a floating action button (need to add a confirmation dialog), removed the query and delete buttons from the main page" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="122" y="15" key="CommitChangelistDialog2" timestamp="1597699500423">
+    <state x="77" y="15" key="CommitChangelistDialog2" timestamp="1597766192066">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="122" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597699500423" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1597665170531">
+    <state x="77" y="15" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597766192066" />
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom" timestamp="1597863448910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597665170531" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1597665170527">
+    <state width="1398" height="326" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597863448910" />
+    <state width="1398" height="326" key="GridCell.Tab.0.center" timestamp="1597863448909">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597665170527" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1597665170525">
+    <state width="1398" height="326" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597863448909" />
+    <state width="1398" height="326" key="GridCell.Tab.0.left" timestamp="1597863448908">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597665170525" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1597665170529">
+    <state width="1398" height="326" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597863448908" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right" timestamp="1597863448909">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597665170529" />
+    <state width="1398" height="326" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597863448909" />
     <state x="196" y="0" width="1244" height="877" key="SettingsEditor" timestamp="1596661049968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="196" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596661049968" />
     <state x="196" y="23" width="1244" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1596660924882" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597699505733">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597766199996">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597699505733" />
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597665082987">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597766199996" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1597858712589">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1596754816759" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.0.1440.900" timestamp="1597858712589" />
     <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1440.900@0.23.1440.877" timestamp="1596892583586" />
-    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597665082987" />
+    <state x="120" y="123" width="1200" height="654" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1440.877@0.23.1440.877" timestamp="1597766544019" />
     <state x="390" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1597664904946">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
